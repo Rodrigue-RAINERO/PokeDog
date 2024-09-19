@@ -1,0 +1,2 @@
+module PokeDogHelper
+end

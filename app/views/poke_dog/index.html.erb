@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte Pokémon 3D</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="card-container">
+        <div class="card" id="pokemonCard">
+            <div class="elements">
+                <h2>Sköll</h2>
+                <div class="titleElements">
+                    <div class="hpElements">
+                        <h6>PV</h6>
+                        <h5>240</h5>
+                    </div>
+                    <%= image_tag 'ur_pin_large_front_square_600x600.u1-removebg-preview.png', id: 'img-elements2' %>
+                    <%= image_tag 'flat_750x_075_f-pad_750x1000_f8f8f8.u4-removebg-preview.png', id: 'img-elements' %>
+                </div>
+            </div>
+            <div class="image-container">
+              <%= image_tag'openart-image_mb5NTFmt_1726503890414_raw-removebg.png', id: 'pokemonImage' %>
+              <%= image_tag 'openart-image_mb5NTFmt_1726503890414_raw.jpg', id: 'pokemonImage1' %>
+            </div>
+            <div class="divType">
+                <h6 class="pokeType">Type : Ténèbre - Feu</h6>
+                <h6 class="poids">22 kg</h6>
+            </div>
+            <div class="card-content">
+                <div class="div-capacité-container">
+                    <div class="divCapacité">
+                        <div class="capacité">
+                            <div class="divElemCapacité">
+                                <%= image_tag 'flat_750x_075_f-pad_750x1000_f8f8f8.u4-removebg-preview.png', id: 'img-elements3' %>
+                                <%= image_tag 'flat_750x_075_f-pad_750x1000_f8f8f8.u4-removebg-preview.png', id: 'img-elements3' %>
+                            </div>
+                            <h5>Bave enflammée</h5>
+                            <h4>40</h4>
+                        </div>
+                        <h6 class="descriptionCapacité">Brûle la cible en la léchant</h6>
+                    </div>
+                    <div class="divCapacité">
+                        <div class="capacité">
+                            <div class="divElemCapacité">
+                                <%= image_tag 'ur_pin_large_front_square_600x600.u1-removebg-preview.png', id: 'img-elements3' %>
+                                <%= image_tag 'ur_pin_large_front_square_600x600.u1-removebg-preview.png', id: 'img-elements3' %>
+                                <%= image_tag 'flat_750x_075_f-pad_750x1000_f8f8f8.u4-removebg-preview.png', id: 'img-elements3' %>
+
+                            </div>
+                            <h5 class="capacité2">Pet des enfers</h5>
+                            <h4>130</h4>
+                        </div>
+                        <h6 class="descriptionCapacité">Intoxique la zone avec une flatulence immonde <br>( N'allumez
+                            pas
+                            votre briquet !! )</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="faiblesse">
+                        <h6>Faiblesse :</h6>
+                        <h6>Raisin</h6>
+                    </div>
+                    <div class="crédits">
+                        <h6>Illustration : DogArtAI.</h6>
+                        <h6>© 2024 PokéDog. TM, ® Nintendog.</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="glow"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
